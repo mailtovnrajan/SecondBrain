@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="fill_horizontal"
+        android:layout_weight="0.30" >
+
+        <EditText
+            android:id="@+id/etKey"
+            android:layout_width="326dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/btnDetailAdd"
+            style="@style/AppBaseTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:onClick="btnQuickAddResponse"
+            android:text="@string/btn_quickadd_string" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnSearch1"
+            style="@style/AppBaseTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:onClick="btnSearchResponse"
+            android:text="@string/btn_search_string" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            style="@style/AppBaseTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:onClick="btnAddResponse"
+            android:text="@string/btn_add_string" />
+
+    </LinearLayout>
+
+</LinearLayout>

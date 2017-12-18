@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.example.instantjournal.DBManager"/>
+<fullyQualifiedTypeName name="android.content.ContentValues"/>
+<fullyQualifiedTypeName name="java.sql.Timestamp"/>
+<fullyQualifiedTypeName name="java.util.jar.JarEntry"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.example.instantjournal.SearchListActivity"/>
+<fullyQualifiedTypeName name="com.example.instantjournal.R.layout"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="com.example.instantjournal.R.string"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="com.example.instantjournal.MainActivity"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="android.support.v4.widget.CursorAdapter"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="android.widget.CursorAdapter"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="android.widget.SimpleCursorAdapter"/>
+<fullyQualifiedTypeName name="com.example.instantjournal.SrchListActivity"/>
+<fullyQualifiedTypeName name="android.app.LoaderManager.LoaderCallbacks"/>
+<fullyQualifiedTypeName name="android.content.Loader"/>
+<fullyQualifiedTypeName name="android.net.Uri"/>
+<fullyQualifiedTypeName name="java.net.URI"/>
+<fullyQualifiedTypeName name="com.example.instantjournal.SrchCursorLoader"/>
+<fullyQualifiedTypeName name="android.content.CursorLoader"/>
+<fullyQualifiedTypeName name="android.widget.ListView"/>
+<fullyQualifiedTypeName name="com.example.instantjournal.R.id"/>
+<fullyQualifiedTypeName name="android.app.LoaderManager"/>
+<fullyQualifiedTypeName name="android.widget.AdapterView.OnItemClickListener"/>
+<fullyQualifiedTypeName name="com.example.instantjournal.DatabaseHelper"/>
+<fullyQualifiedTypeName name="com.example.instantjournal.AddUpdateActivity"/>
+<fullyQualifiedTypeName name="com.example.instantjournal.JnlEntry"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+</qualifiedTypeNameHistroy>

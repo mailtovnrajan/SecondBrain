@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/etTimestamp"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/editTextKey"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_weight="0.83"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextValue"
+        android:layout_width="match_parent"
+        android:layout_height="318dp"
+        android:layout_weight="3.16"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="13.90"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnUpdate"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:onClick="btnUpdateResponse"
+            android:text="@string/btn_update_string" />
+
+        <Button
+            android:id="@+id/btnDetailAdd"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:onClick="btnAddResponse"
+            android:text="@string/btn_add_string" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:onClick="btnDeleteResponse"
+            android:text="@string/btn_delete_string" />
+    </LinearLayout>
+
+</LinearLayout>
